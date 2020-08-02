@@ -6,7 +6,7 @@ def initialize(word)
 
 def match(possible_anagrams)
   possible_anagrams.select do |anagram|
-    @word.sort.split("") == anagram.sort.split("")
+    @word.split("") == anagram.split("")
   end
 end
 
