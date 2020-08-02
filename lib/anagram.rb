@@ -5,7 +5,7 @@ def initialize(word)
  end
 
 def match(possible_anagrams)
-
+  anagrams.
 end
 
 
